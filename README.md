@@ -15,8 +15,8 @@ Formula used :
 
 **f(x) = (1/(sd * sqrt(2 * pi))) * pow(e, ((-1/2) * pow(((x-m)/sd), 2))) ; where, sd = standard deviation ; m = mean ; f(x) = probability for the point x**
 
-# User-defined-algorithm-to-perform-Linear-Regression
-Formula used : (Statistics)
+# User-defined-algorithm-to-perform-Linear-Regression using OLSR concept
+Statistics based
 A straight line equation is y=m*x + b where m is the slope of the line and b is the y-intercept.
 **m = (Σ (xi - mean_x)(yi - mean_y))/ (Σ (xi - mean_x)^2)**
 **b = mean_y - (m*mean_x)**
@@ -26,3 +26,27 @@ R2_score is the ratio of the distance predicted and the actual distance.
 Formula : R^2 = (Σ (yp - mean_y)^2)/ (Σ(yi-mean_y)^2)
 Here yp is the distance predicted by the model and yi denotes the term of y at position i, where i ranges from 0 to the ending range of y.
 
+# User-defined-algorithm-to-perform-Linear-Regression using Gradient Descent concept.
+Calculus based.
+**Steps for Gradient Descent**
+
+**1.First initialization of m and b value. (By assuming, with m=1 and b=0 for the very first time)
+2.Assuming a Learning rate and then calculating the step-size for calculating the next m and b value.
+3.Calculating the next value with m and b.
+4.Repeating the entire steps for all the new values of m and b unill step size <= 0.001, i.e more or less 1000 times.**
+
+*Formulae to be used :*
+**Equation of a straight line : y=mx + b** ; here m = slope of the line and b is the intercept of the line
+**Equation of the SS of a particular line : Σ(pyi-ayi)^2** ; i ranges from 1 to n where n is the total no of y points.
+
+yi = the y value for the ith point.
+pyi = predicted yi value of the best fit line.
+ayi = actual yi value.
+SS = Sum of the squared distance
+from the equation of the SS line we will see that SS = f(m,b) i.e. SS is a function of m and b
+**Calculation of b:**
+differentiate f(m,b) with respect to b.
+Then follow the 4 steps of Gradient descent as mentioned above for just b value.
+**Calculation of m:**
+differentiate f(m,b) with respect to m.
+Then follow the 4 steps of Gradient descent as mentioned above for just m value.
