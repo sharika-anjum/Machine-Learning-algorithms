@@ -16,7 +16,7 @@ Gaussian Naive Bayes formula for this dataset cause data is normally distributed
 Formula used : 
 **f(x) = (1/(sd * sqrt(2 * pi))) * pow(e, ((-1/2) * pow(((x-m)/sd), 2))) ; where, sd = standard deviation ; m = mean ; f(x) = probability for the point x**
 
-# User-defined-algorithm-to-perform-Linear-Regression using OLSR concept
+# User defined algorithm to perform Linear Regression using OLSR concept
 **Statistics based**
 
 **A straight line equation is y=m*x + b where m is the slope of the line and b is the y-intercept.**
@@ -55,5 +55,5 @@ Then follow the 4 steps of Gradient descent as mentioned above for just b value.
 differentiate f(m,b) with respect to m.
 Then follow the 4 steps of Gradient descent as mentioned above for just m value.
 
-**#User defined algorithm to perform Logostic Regression.
-Geometric concept**
+# User defined algorithm to perform Logostic Regression.
+**Geometric concept**
