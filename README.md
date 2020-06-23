@@ -27,7 +27,7 @@ Formula used :
 Here xi and yi denotes the term of x and y at position i, where i ranges from 0 to the ending range of x and y.
 For regression based problem, accuracy is found using R2_score function.
 
-# User-defined-algorithm-to-perform-Linear-Regression using Gradient Descent concept.
+# User defined algorithm to perform Linear Regression using Gradient Descent concept.
 **Calculus based.**
 
 **Steps for Gradient Descent**
@@ -54,3 +54,6 @@ Then follow the 4 steps of Gradient descent as mentioned above for just b value.
 **Calculation of m:**
 differentiate f(m,b) with respect to m.
 Then follow the 4 steps of Gradient descent as mentioned above for just m value.
+
+**#User defined algorithm to perform Logostic Regression.
+Geometric concept**
