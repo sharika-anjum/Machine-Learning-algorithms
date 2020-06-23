@@ -57,3 +57,29 @@ Then follow the 4 steps of Gradient descent as mentioned above for just m value.
 
 # User defined algorithm to perform Logostic Regression.
 **Geometric concept**
+
+*Equation to get the distance from a point to the line is :*
+
+**di = (|A*xi + Byi + C|)/ √(A^2 + B^2)**
+
+Here, di is the distance of the point no. i
+
+xi is the x coordinate of point i and yi is the y coordinate of point i
+
+i ranges from 1 to n, where n is the total no. of points
+
+*Logistic Regression says,*
+
+after calculating di, we need to find - di_total.
+
+**di_total = Σdi** where i ranges from 1 to total no. of points.
+
+Next, we need to calculate d_dash.
+
+**d_dash = yi_cap * di_total**
+
+Since Logistic Regression works for binary classification, yi_cap has two values:
+
+**yi_cap1 = 1; yi_cap2 = -1 **
+
+The line which has maximum d_dash value is the best fitted line.
